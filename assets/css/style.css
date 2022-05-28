@@ -3776,21 +3776,6 @@ div#mCSB_1_container {
 	resize: none;
 	height: 120px;
 }
-
-.sidebar-info-contents
-	.content-inner
-	.content-box
-	.booking-form
-	.form-group
-	input:focus,
-.sidebar-info-contents
-	.content-inner
-	.content-box
-	.booking-form
-	.form-group
-	textarea:focus {
-}
-
 .sidebar-info-contents
 	.content-inner
 	.content-box
@@ -3836,10 +3821,6 @@ div#mCSB_1_container {
 .sidebar-info-contents .content-inner .contact-info ul li a {
 	color: #ccc;
 }
-
-.sidebar-info-contents .content-inner .contact-info ul li a:hover {
-}
-
 .sidebar-info-contents .content-inner .contact-info h4 {
 	position: relative;
 	font-size: 20px;
@@ -3978,6 +3959,7 @@ div#mCSB_1_container {
 }
 
 .banner-section.style-two .content-box p {
+	text-align: center;
 	display: block;
 	font-size: 18px;
 	line-height: 30px;
