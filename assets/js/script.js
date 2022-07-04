@@ -603,3 +603,8 @@
 		enableMasonry();
 	});
 })(window.jQuery);
+
+/*==================== DATE COPYRIGHT FOOTER ====================*/
+var date = new Date();
+var year = date.getFullYear();
+document.getElementById('date-copyright').innerHTML = year;
